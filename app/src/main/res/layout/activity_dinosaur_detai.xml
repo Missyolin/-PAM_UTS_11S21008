@@ -125,5 +125,14 @@
             android:layout_marginStart="20dp"
             android:layout_marginEnd="20dp"
             android:text="@string/info_family_environment" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvFamily"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:contentDescription="Daftar Keluarga"
+            android:padding="15dp"
+            tools:listitem="@layout/item_row_dino" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
