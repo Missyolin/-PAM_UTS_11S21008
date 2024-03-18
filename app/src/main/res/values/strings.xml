@@ -1,0 +1,278 @@
+<resources>
+    <!--    FOR FAMILY-->
+    <string name="app_name">Dino Pedia</string>
+    <string name="info_family_icon">Family Icon</string>
+    <string name="info_family_name">Family Name</string>
+    <string name="info_family_desc">Family Desc</string>
+    <string name="info_family_period_time">Life Time Period</string>
+    <string name="info_family_physics_characteristic">Family Characteristic</string>
+    <string name="info_family_habit">Family Habit</string>
+    <string name="info_family_environment">Family Environment</string>
+
+    <!--    FOR DINO-->
+    <string name="info_dino_icon">Family Icon</string>
+    <string name="info_dino_name">Family Name</string>
+    <string name="info_dino_desc">Family Desc</string>
+    <string name="info_dino_period_time">Life Time Period</string>
+    <string name="info_dino_physics_characteristic">Family Characteristic</string>
+    <string name="info_dino_habit">Family Habit</string>
+    <string name="info_dino_food">Dino food</string>
+    <string name="info_dino_length">Dino Length</string>
+    <string name="info_dino_height">Dino Height</string>
+    <string name="info_dino_weight">Dino Weight</string>
+    <string name="info_dino_weakness">Dino Weakness</string>
+
+    <!--    FOR FAMILY-->
+    <string-array name="family_icon">
+        <item>@drawable/theropoda</item>
+        <item>@drawable/sauropoda</item>
+        <item>@drawable/ornithopoda</item>
+        <item>@drawable/ankylosauria</item>
+        <item>@drawable/ceratopsia</item>
+        <item>@drawable/pachycephalosauria</item>
+        <item>@drawable/theeropoda</item>
+        <item>@drawable/sauropodomorph</item>
+    </string-array>
+
+    <string-array name="family_name">
+        <item>Theropoda</item>
+        <item>Sauropoda</item>
+        <item>Ornithopoda</item>
+        <item>Ankylosauria</item>
+        <item>Ceratopsia</item>
+        <item>Pachycephalosauria</item>
+        <item>Aves</item>
+        <item>Sauropodomorph</item>
+    </string-array>
+
+    <string-array name="family_desc">
+        <item>Dinosaurus karnivora berkaki dua, termasuk predator puncak dan nenek moyang burung modern.</item>
+        <item>Dinosaurus herbivora berleher panjang berkaki empat, dikenal sebagai raksasa daratan dengan ukuran terbesar di antara dinosaurus lainnya.</item>
+        <item>Dinosaurus herbivora berkaki dua, beragam kelompok dengan ciri khas paruh dan beberapa memiliki struktur pertahanan seperti pelat dan duri.</item>
+        <item>Dinosaurus herbivora berkaki empat yang berlapis baja, memiliki pertahanan kuat dengan lempengan tulang dan duri untuk melindungi diri dari predator.</item>
+        <item>Dinosaurus herbivora berkaki empat bertanduk, dikenal dengan hiasan kepala bercula dan plat tulang besar untuk bertarung atau pertahanan.</item>
+        <item>Dinosaurus herbivora berkaki dua dengan kepala tebal, diperkirakan kepala digunakan untuk bertarung antar sesama atau mempertahankan diri dengan cara menanduk.</item>
+        <item>Kelompok dinosaurus theropoda yang berevolusi menjadi burung modern, memiliki ciri khas sayap, bulu, dan paruh.</item>
+        <item>Kelompok yang lebih luas mencakup sauropoda dan kerabat dekat mereka, termasuk sauropoda berleher pendek dan titanosaurus berukuran raksasa.</item>
+    </string-array>
+
+    <string-array name="family_period_time">
+        <item>Trias Akhir - Kapur Akhir (230 - 66 juta tahun lalu)</item>
+        <item>Jura Akhir - Kapur Akhir (157 - 66 juta tahun lalu)</item>
+        <item>Jura Awal - Kapur Akhir (201 - 66 juta tahun lalu)</item>
+        <item>Kapur Awal - Kapur Akhir (145 - 66 juta tahun lalu)</item>
+        <item>Kapur Awal - Kapur Akhir (145 - 66 juta tahun lalu)</item>
+        <item>Kapur Akhir (76 - 66 juta tahun lalu)</item>
+        <item>Kapur Akhir (100 - 66 juta tahun lalu) - sekarang</item>
+        <item>Trias Akhir - Kapur Akhir (230 - 66 juta tahun lalu)</item>
+    </string-array>
+
+    <string-array name="family_physics_characteristic">
+        <item>Berkaki dua, Karnivora, Gigi tajam, Cakar di kaki depan, Berevolusi menjadi burung</item>
+        <item>Berkaki empat, Herbivora, Leher panjang, Ekor panjang, Ukuran raksasa</item>
+        <item>Berkaki dua, Herbivora, Paruh, Pelat dan duri di punggung</item>
+        <item>Berkaki empat, Herbivora, Tubuh berlapis baja, Ekor pendek dan kuat</item>
+        <item>Berkaki empat, Herbivora, Tanduk di kepala, Plat tulang di leher</item>
+        <item>Berkaki dua, Herbivora, Tengkorak tebal, Bertarung dengan kepala</item>
+        <item>Berkaki dua, Omnivora, Sayap, bulu, dan paruh, Berasal dari theropoda</item>
+        <item>Berkaki empat, Herbivora, Leher panjang, Ekor panjang, Nenek moyang sauropoda</item>
+    </string-array>
+
+    <string-array name="family_habit">
+        <item>Theropoda - Karnivora, berburu mangsa, hidup berkelompok</item>
+        <item>Sauropoda - Herbivora, memakan tumbuhan, hidup berkelompok</item>
+        <item>Ornithopoda - Herbivora, memakan tumbuhan, hidup berkelompok</item>
+        <item>Ankylosauria - Herbivora, memakan tumbuhan, hidup soliter</item>
+        <item>Ceratopsia - Herbivora, memakan tumbuhan, hidup berkelompok</item>
+        <item>Pachycephalosauria - Herbivora, memakan tumbuhan, hidup soliter</item>
+        <item>Aves - Omnivora, memakan berbagai jenis makanan, hidup berkelompok dan soliter</item>
+        <item>Sauropodomorph - Herbivora, memakan tumbuhan, hidup berkelompok</item>
+    </string-array>
+
+    <string-array name="family_environment">
+        <item>Lingkungan hidup: Berbagai habitat, termasuk hutan, padang rumput, dan rawa</item>
+        <item>Lingkungan hidup: Hutan dan padang rumput</item>
+        <item>Lingkungan hidup: Hutan dan padang rumput</item>
+        <item>Lingkungan hidup: Hutan dan padang rumput</item>
+        <item>Lingkungan hidup: Padang rumput</item>
+        <item>Lingkungan hidup: Hutan dan padang rumput</item>
+        <item>Lingkungan hidup: Berbagai habitat, termasuk hutan, padang rumput, dan laut</item>
+        <item>Lingkungan hidup: Hutan dan padang rumput</item>
+    </string-array>
+
+    <!--    FOR DINO-->
+    <string-array name="dino_icon">
+        <item>@drawable/trex</item>
+    </string-array>
+
+    <string-array name="dino_name">
+        <item>Tyrannosaurus rex</item>
+        <item>Velociraptor</item>
+        <item>Brachiosaurus</item>
+        <item>Diplodocus</item>
+        <item>Triceratops</item>
+        <item>Edmontosaurus</item>
+        <item>Ankylosaurus</item>
+        <item>Euoplocephalus</item>
+        <item>Centrosaurus</item>
+        <item>Styracosaurus</item>
+        <item>Pachycephalosaurus</item>
+        <item>Stegoceratops</item>
+        <item>Archaeopteryx</item>
+        <item>Confuciusornis</item>
+        <item>Patagotitan</item>
+        <item>Argentinosaurus</item>
+    </string-array>
+
+    <string-array name="dino_desc">
+        <item>Tyrannosaurus rex - Theropoda karnivora berbadan besar dengan rahang kuat dan lengan kecil. Hidup berkelompok dan merupakan predator puncak.</item>
+        <item>Velociraptor - Theropoda karnivora berukuran ramping dan cerdas. Memiliki cakar melengkung di kaki belakang untuk berburu mangsa.</item>
+        <item>Brachiosaurus - Sauropoda herbivora ber leher panjang dan tubuh raksasa. Hidup berkelompok dan memakan dedaunan tinggi.</item>
+        <item>Diplodocus - Sauropoda herbivora ber leher panjang dan ekor panjang. Hidup berkelompok dan memakan dedaunan di berbagai ketinggian.</item>
+        <item>Triceratops - Ceratopsia herbivora berbadan besar dengan tiga tanduk di kepala dan plat tulang di leher. Hidup berkelompok untuk perlindungan.</item>
+        <item>Edmontosaurus - Ornithopoda herbivora berbadan bebek dengan paruh dan jambul di kepala. Hidup berkelompok dan memakan tumbuhan darat.</item>
+        <item>Ankylosaurus - Ankylosauria herbivora berbadan berat dengan lapisan pelindung tulang dan gada di ekor. Hidup soliter dan memakan tumbuhan rendah.</item>
+        <item>Euoplocephalus - Ankylosauria herbivora berbadan berat dengan gada besar di ekor dan duri di punggung. Hidup soliter dan memakan tumbuhan rendah.</item>
+        <item>Centrosaurus - Ceratopsia herbivora bertanduk di hidung dan frill di leher. Hidup berkelompok untuk perlindungan dari predator.</item>
+        <item>Styracosaurus - Ceratopsia herbivora ber tanduk besar di moncong dan duri di frill leher. Hidup berkelompok untuk perlindungan dari predator.</item>
+        <item>Pachycephalosaurus - Pachycephalosauria herbivora bertengkorak tebal. Diduga menggunakan kepala untuk bertarung atau melindungi diri. Hidup soliter.</item>
+        <item>Stegoceratops - Pachycephalosauria herbivora bertengkorak tebal dan duri di punggung. Diduga menggunakan kepala dan duri untuk perlindungan. Hidup soliter.</item>
+        <item>Archaeopteryx - Aves primitif dengan ciri-ciri reptil dan burung. Memiliki bulu, sayap, dan cakar pada kaki depan. Hidup soliter atau berkelompok kecil.</item>
+        <item>Confuciusornis - Aves primitif mirip burung modern. Memiliki paruh tanpa gigi dan sayap untuk terbang. Diduga hidup berkelompok.</item>
+        <item>Patagotitan - Sauropodomorph herbivora berukuran raksasa dengan leher panjang dan ekor panjang. Hidup berkelompok dan memakan dedaunan tinggi.</item>
+        <item>Argentinosaurus - Sauropodomorph herbivora berukuran sangat besar, salah satu dinosaurus terbesar yang pernah ada. Hidup berkelompok dan memakan dedaunan tinggi.</item>
+    </string-array>
+
+    <string-array name="dino_period_time">
+        <item>68-66 juta tahun yang lalu (Masa Kapur)</item>
+        <item>85-70 juta tahun yang lalu (Masa Kapur)</item>
+        <item>154-153 juta tahun yang lalu (Masa Jura Awal)</item>
+        <item>154-152 juta tahun yang lalu (Masa Jura Awal)</item>
+        <item>68-66 juta tahun yang lalu (Masa Kapur)</item>
+        <item>73-66 juta tahun yang lalu (Masa Kapur)</item>
+        <item>68-66 juta tahun yang lalu (Masa Kapur)</item>
+        <item>76-66 juta tahun yang lalu (Masa Kapur)</item>
+        <item>76-75 juta tahun yang lalu (Masa Kapur)</item>
+        <item>76-75 juta tahun yang lalu (Masa Kapur)</item>
+        <item>76-66 juta tahun yang lalu (Masa Kapur)</item>
+        <item>68-66 juta tahun yang lalu (Masa Kapur)</item>
+        <item>150-148 juta tahun yang lalu (Masa Jura Tengah)</item>
+        <item>125-120 juta tahun yang lalu (Masa Kapur Akhir)</item>
+        <item>102-97 juta tahun yang lalu (Masa Kapur Akhir)</item>
+        <item>97-93 juta tahun yang lalu (Masa Kapur Akhir)</item>
+    </string-array>
+
+    <string-array name="dino_physics_characteristic">
+        <item>Memiliki gigi tajam dan kuat</item>
+        <item>Dilengkapi dengan cakar yang tajam</item>
+        <item>Memiliki leher panjang dan tubuh besar</item>
+        <item>Memiliki tubuh yang panjang dan ekor yang panjang pula</item>
+        <item>Dilengkapi dengan tanduk di kepala</item>
+        <item>Mempunyai tubuh besar dengan leher yang panjang</item>
+        <item>Dilindungi oleh lapisan tulang keras yang menyerupai baju besi</item>
+        <item>Mempunyai bentuk tubuh yang besar dan berat</item>
+        <item>Mempunyai tanduk di kepala dan punggung yang tajam</item>
+        <item>Mempunyai tanduk di kepala dan tubuh yang besar</item>
+        <item>Mempunyai kepala yang kokoh dan tebal serta cakar yang kuat</item>
+        <item>Mempunyai tubuh yang besar dengan tanduk di kepala</item>
+        <item>Memiliki bulu-bulu dan kemampuan terbang yang terbatas</item>
+        <item>Mempunyai bulu-bulu dan sayap yang memungkinkan untuk terbang</item>
+        <item>Mempunyai tubuh yang besar dengan leher yang panjang</item>
+        <item>Memiliki tubuh yang besar dengan leher yang panjang</item>
+    </string-array>
+
+    <string-array name="dino_habit">
+        <item>Hidup di daratan, baik hutan maupun padang rumput</item>
+        <item>Menjelajahi dataran terbuka dan hutan-hutan</item>
+        <item>Mendiami daerah dataran tinggi dan dataran rendah</item>
+        <item>Hidup di daerah dengan vegetasi yang lebat dan air yang cukup</item>
+        <item>Menjelajahi wilayah hutan yang lebat dan sungai-sungai yang besar</item>
+        <item>Habitatnya mencakup daerah dataran tinggi dan perbukitan</item>
+        <item>Mendiami padang rumput yang luas dan daerah-daerah dengan tumbuhan tinggi</item>
+        <item>Hidup di hutan-hutan tropis dan lahan basah</item>
+        <item>Menjelajahi daerah-daerah yang kering dengan vegetasi yang jarang</item>
+        <item>Habitatnya meliputi daerah rawa-rawa dan dataran banjir yang luas</item>
+        <item>Mendiami padang rumput luas dan dataran rendah yang subur</item>
+        <item>Menjelajahi wilayah gurun dan daerah dengan vegetasi yang jarang</item>
+        <item>Hidup di daerah pesisir dan lahan basah</item>
+        <item>Mendiami daerah-daerah terbuka dengan banyaknya sumber air</item>
+        <item>Menjelajahi padang rumput yang luas dan daerah-daerah berbukit</item>
+        <item>Habitatnya meliputi daerah hutan hujan dan sungai-sungai besar</item>
+    </string-array>
+
+    <string-array name="dino_food">
+        <item>Memangsa hewan-hewan kecil seperti mamalia kecil dan reptil</item>
+        <item>Memakan hewan-hewan kecil, burung, dan reptil-reptil kecil</item>
+        <item>Mengkonsumsi tanaman-tanaman rendah seperti pakis dan ganggang</item>
+        <item>Memakan dedaunan dan tanaman rendah seperti paku-pakuan</item>
+        <item>Memangsa tumbuhan tinggi dan daun-daunan</item>
+        <item>Mengkonsumsi dedaunan, pucuk-pucuk tanaman, dan tumbuhan merambat</item>
+        <item>Memakan daun-daunan dan buah-buahan</item>
+        <item>Mengonsumsi dedaunan, buah-buahan, dan tumbuhan keras lainnya</item>
+        <item>Memangsa tanaman rendah dan rumput-rumputan</item>
+        <item>Mengkonsumsi tumbuhan seperti semak-semak dan pohon-pohonan</item>
+        <item>Memakan tumbuhan rendah dan rumput-rumputan</item>
+        <item>Mengonsumsi tumbuhan keras dan semak-semak</item>
+        <item>Memangsa ikan dan hewan-hewan kecil di air</item>
+        <item>Mengonsumsi ikan, amfibi, dan hewan-hewan kecil di sekitar air</item>
+        <item>Memakan ikan-ikan kecil dan hewan-hewan air lainnya</item>
+        <item>Mengkonsumsi hewan-hewan air seperti ikan dan amfibi</item>
+    </string-array>
+
+    <string-array name="dino_length">
+        <item>12-13 meter</item>
+        <item>1.8 meter</item>
+        <item>30 meter</item>
+        <item>27 meter</item>
+        <item>7.9-9 meter</item>
+        <item>12 meter</item>
+        <item>6 meter</item>
+        <item>6 meter</item>
+        <item>6 meter</item>
+        <item>5.5 meter</item>
+        <item>4.5-5 meter</item>
+        <item>9 meter</item>
+        <item>0.3 meter</item>
+        <item>0.6 meter</item>
+        <item>37 meter</item>
+        <item>30 meter</item>
+    </string-array>
+
+    <string-array name="dino_height">
+        <item>4-6 meter</item>
+        <item>0.5 meter</item>
+        <item>16 meter</item>
+        <item>4 meter</item>
+        <item>3 meter</item>
+        <item>4 meter</item>
+        <item>1.5 meter</item>
+        <item>1.5 meter</item>
+        <item>2 meter</item>
+        <item>2 meter</item>
+        <item>2 meter</item>
+        <item>2 meter</item>
+        <item>0.3 meter</item>
+        <item>0.5 meter</item>
+        <item>7 meter</item>
+        <item>8 meter</item>
+    </string-array>
+
+    <string-array name="dino_weakness">
+        <item>Ukuran besar dan berat dapat membuatnya sulit bergerak dengan cepat</item>
+        <item>Ukuran tubuh yang kecil dapat membuatnya rentan terhadap pemangsa yang lebih besar</item>
+        <item>Tubuh yang sangat besar mungkin membuatnya sulit untuk mencapai kecepatan tinggi atau bergerak dengan lincah</item>
+        <item>Leher yang sangat panjang mungkin membuatnya rentan terhadap cedera saat mencoba mencapai makanan yang tinggi</item>
+        <item>Rentan terhadap serangan dari predator yang memanfaatkan kelemahan leher atau perutnya</item>
+        <item>Mungkin memiliki perlindungan yang kurang baik terhadap pemangsa karena kurangnya cakar atau tanduk yang tajam</item>
+        <item>Mungkin lambat dalam pergerakan karena perlindungan tubuh yang berat dan kaku</item>
+        <item>Kecepatan dan ketangkasan mungkin terbatas karena perlindungan tulang yang berat di seluruh tubuhnya</item>
+        <item>Mungkin rentan terhadap pemangsa yang mencoba menyerang dari bagian samping atau belakang, karena perlindungan utama terfokus pada bagian depan</item>
+        <item>Cakar dan tanduk mungkin kurang efektif dalam pertahanan terhadap predator yang lebih besar atau lebih gesit</item>
+        <item>Tengkorak yang tebal mungkin tidak memberikan perlindungan yang efektif terhadap serangan predator yang tajam</item>
+        <item>Mungkin kurang fleksibel dalam pergerakan karena perpaduan antara tubuh besar dan tanduk besar di kepala</item>
+        <item>Mungkin memiliki kemampuan terbang yang terbatas, membuatnya rentan terhadap predator di daratan</item>
+        <item>Mungkin rentan terhadap predator di udara karena kemampuannya yang terbatas untuk terbang atau bergerak cepat</item>
+        <item>Mungkin rentan terhadap kekurangan pangan karena tubuhnya yang besar membutuhkan banyak sumber makanan</item>
+        <item>Mungkin memiliki sistem perlindungan yang kurang efektif terhadap predator karena ukuran tubuhnya yang besar dan kurangnya alat pertahanan yang kuat</item>
+    </string-array>
+</resources>
