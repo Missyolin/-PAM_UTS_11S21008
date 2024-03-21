@@ -10,9 +10,9 @@
     <string name="info_family_environment">Family Environment</string>
 
     <!--    FOR DINO-->
-    <string name="info_dino_icon">Family Icon</string>
-    <string name="info_dino_name">Family Name</string>
-    <string name="info_dino_desc">Family Desc</string>
+    <string name="info_dino_icon">Dino Icon</string>
+    <string name="info_dino_name">Dino Name</string>
+    <string name="info_dino_desc">Dino Desc</string>
     <string name="info_dino_period_time">Life Time Period</string>
     <string name="info_dino_physics_characteristic">Family Characteristic</string>
     <string name="info_dino_habit">Family Habit</string>
@@ -43,6 +43,28 @@
         <item>Pachycephalosauria</item>
         <item>Aves</item>
         <item>Sauropodomorph</item>
+    </string-array>
+
+    <string-array name="start_index">
+        <item>0</item>
+        <item>2</item>
+        <item>4</item>
+        <item>6</item>
+        <item>8</item>
+        <item>10</item>
+        <item>12</item>
+        <item>14</item>
+    </string-array>
+
+    <string-array name="end_index">
+        <item>1</item>
+        <item>3</item>
+        <item>5</item>
+        <item>7</item>
+        <item>9</item>
+        <item>11</item>
+        <item>13</item>
+        <item>15</item>
     </string-array>
 
     <string-array name="family_desc">
@@ -103,6 +125,21 @@
     <!--    FOR DINO-->
     <string-array name="dino_icon">
         <item>@drawable/trex</item>
+        <item>@drawable/velociraptor</item>
+        <item>@drawable/brachiosaurus</item>
+        <item>@drawable/diplodocus</item>
+        <item>@drawable/triceratops</item>
+        <item>@drawable/edmontosaurus</item>
+        <item>@drawable/ankyylosaurus</item>
+        <item>@drawable/euplocephalus</item>
+        <item>@drawable/centrosauruss</item>
+        <item>@drawable/styracosauruss</item>
+        <item>@drawable/pachycephalosauruss</item>
+        <item>@drawable/stegoceratopss</item>
+        <item>@drawable/archae</item>
+        <item>@drawable/confuciusorniss</item>
+        <item>@drawable/patagotitann</item>
+        <item>@drawable/argentinosauruss</item>
     </string-array>
 
     <string-array name="dino_name">
@@ -125,22 +162,22 @@
     </string-array>
 
     <string-array name="dino_desc">
-        <item>Tyrannosaurus rex - Theropoda karnivora berbadan besar dengan rahang kuat dan lengan kecil. Hidup berkelompok dan merupakan predator puncak.</item>
-        <item>Velociraptor - Theropoda karnivora berukuran ramping dan cerdas. Memiliki cakar melengkung di kaki belakang untuk berburu mangsa.</item>
-        <item>Brachiosaurus - Sauropoda herbivora ber leher panjang dan tubuh raksasa. Hidup berkelompok dan memakan dedaunan tinggi.</item>
-        <item>Diplodocus - Sauropoda herbivora ber leher panjang dan ekor panjang. Hidup berkelompok dan memakan dedaunan di berbagai ketinggian.</item>
-        <item>Triceratops - Ceratopsia herbivora berbadan besar dengan tiga tanduk di kepala dan plat tulang di leher. Hidup berkelompok untuk perlindungan.</item>
-        <item>Edmontosaurus - Ornithopoda herbivora berbadan bebek dengan paruh dan jambul di kepala. Hidup berkelompok dan memakan tumbuhan darat.</item>
-        <item>Ankylosaurus - Ankylosauria herbivora berbadan berat dengan lapisan pelindung tulang dan gada di ekor. Hidup soliter dan memakan tumbuhan rendah.</item>
-        <item>Euoplocephalus - Ankylosauria herbivora berbadan berat dengan gada besar di ekor dan duri di punggung. Hidup soliter dan memakan tumbuhan rendah.</item>
-        <item>Centrosaurus - Ceratopsia herbivora bertanduk di hidung dan frill di leher. Hidup berkelompok untuk perlindungan dari predator.</item>
-        <item>Styracosaurus - Ceratopsia herbivora ber tanduk besar di moncong dan duri di frill leher. Hidup berkelompok untuk perlindungan dari predator.</item>
-        <item>Pachycephalosaurus - Pachycephalosauria herbivora bertengkorak tebal. Diduga menggunakan kepala untuk bertarung atau melindungi diri. Hidup soliter.</item>
-        <item>Stegoceratops - Pachycephalosauria herbivora bertengkorak tebal dan duri di punggung. Diduga menggunakan kepala dan duri untuk perlindungan. Hidup soliter.</item>
-        <item>Archaeopteryx - Aves primitif dengan ciri-ciri reptil dan burung. Memiliki bulu, sayap, dan cakar pada kaki depan. Hidup soliter atau berkelompok kecil.</item>
-        <item>Confuciusornis - Aves primitif mirip burung modern. Memiliki paruh tanpa gigi dan sayap untuk terbang. Diduga hidup berkelompok.</item>
-        <item>Patagotitan - Sauropodomorph herbivora berukuran raksasa dengan leher panjang dan ekor panjang. Hidup berkelompok dan memakan dedaunan tinggi.</item>
-        <item>Argentinosaurus - Sauropodomorph herbivora berukuran sangat besar, salah satu dinosaurus terbesar yang pernah ada. Hidup berkelompok dan memakan dedaunan tinggi.</item>
+        <item>Theropoda karnivora berbadan besar dengan rahang kuat dan lengan kecil. Hidup berkelompok dan merupakan predator puncak.</item>
+        <item>Theropoda karnivora berukuran ramping dan cerdas. Memiliki cakar melengkung di kaki belakang untuk berburu mangsa.</item>
+        <item>Sauropoda herbivora ber leher panjang dan tubuh raksasa. Hidup berkelompok dan memakan dedaunan tinggi.</item>
+        <item>Sauropoda herbivora ber leher panjang dan ekor panjang. Hidup berkelompok dan memakan dedaunan di berbagai ketinggian.</item>
+        <item>Ceratopsia herbivora berbadan besar dengan tiga tanduk di kepala dan plat tulang di leher. Hidup berkelompok untuk perlindungan.</item>
+        <item>Ornithopoda herbivora berbadan bebek dengan paruh dan jambul di kepala. Hidup berkelompok dan memakan tumbuhan darat.</item>
+        <item>Ankylosauria herbivora berbadan berat dengan lapisan pelindung tulang dan gada di ekor. Hidup soliter dan memakan tumbuhan rendah.</item>
+        <item>Ankylosauria herbivora berbadan berat dengan gada besar di ekor dan duri di punggung. Hidup soliter dan memakan tumbuhan rendah.</item>
+        <item>Ceratopsia herbivora bertanduk di hidung dan frill di leher. Hidup berkelompok untuk perlindungan dari predator.</item>
+        <item>Ceratopsia herbivora ber tanduk besar di moncong dan duri di frill leher. Hidup berkelompok untuk perlindungan dari predator.</item>
+        <item>Pachycephalosauria herbivora bertengkorak tebal. Diduga menggunakan kepala untuk bertarung atau melindungi diri. Hidup soliter.</item>
+        <item>Pachycephalosauria herbivora bertengkorak tebal dan duri di punggung. Diduga menggunakan kepala dan duri untuk perlindungan. Hidup soliter.</item>
+        <item>Aves primitif dengan ciri-ciri reptil dan burung. Memiliki bulu, sayap, dan cakar pada kaki depan. Hidup soliter atau berkelompok kecil.</item>
+        <item>Aves primitif mirip burung modern. Memiliki paruh tanpa gigi dan sayap untuk terbang. Diduga hidup berkelompok.</item>
+        <item>Sauropodomorph herbivora berukuran raksasa dengan leher panjang dan ekor panjang. Hidup berkelompok dan memakan dedaunan tinggi.</item>
+        <item>Sauropodomorph herbivora berukuran sangat besar, salah satu dinosaurus terbesar yang pernah ada. Hidup berkelompok dan memakan dedaunan tinggi.</item>
     </string-array>
 
     <string-array name="dino_period_time">
@@ -255,6 +292,25 @@
         <item>0.5 meter</item>
         <item>7 meter</item>
         <item>8 meter</item>
+    </string-array>
+
+    <string-array name="dino_weight">
+        <item>100 ton</item>
+        <item>120 ton</item>
+        <item>100 ton</item>
+        <item>120 ton</item>
+        <item>100 ton</item>
+        <item>120 ton</item>
+        <item>100 ton</item>
+        <item>120 ton</item>
+        <item>100 ton</item>
+        <item>120 ton</item>
+        <item>100 ton</item>
+        <item>120 ton</item>
+        <item>100 ton</item>
+        <item>120 ton</item>
+        <item>100 ton</item>
+        <item>120 ton</item>
     </string-array>
 
     <string-array name="dino_weakness">

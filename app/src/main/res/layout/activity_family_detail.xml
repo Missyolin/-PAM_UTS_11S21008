@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DinosaurDetailActivity">
+    tools:context=".FamilyDetailActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -126,13 +126,15 @@
             android:layout_marginEnd="20dp"
             android:text="@string/info_family_environment" />
 
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/rvFamily"
-            android:layout_width="match_parent"
+        <Button
+            android:id="@+id/btnPrev"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:contentDescription="Daftar Keluarga"
-            android:padding="15dp"
-            tools:listitem="@layout/item_row_dino" />
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:foregroundGravity="center"
+            android:gravity="center"
+            android:text="Lihat Jenis Dinosaurus Lainnya" />
+
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

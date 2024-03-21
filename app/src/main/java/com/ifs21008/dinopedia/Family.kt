@@ -11,4 +11,6 @@ data class Family (
     var family_physics_characteristic: String,
     var family_habit: String,
     var family_environment: String,
+    var family_start: Int,
+    var family_end: Int,
 ) : Parcelable

@@ -44,10 +44,15 @@ class MainActivity : AppCompatActivity() {
         val dataCharacteristic = resources.getStringArray(R.array.family_physics_characteristic)
         val dataHabit = resources.getStringArray(R.array.family_habit)
         val dataEnv = resources.getStringArray(R.array.family_environment)
+        val dataStart = resources.getStringArray(R.array.start_index)
+        val dataEnd = resources.getStringArray(R.array.end_index)
 
         val listFamily = ArrayList<Family>()
         for(i in dataName.indices) {
-            val family = Family(dataIcon.getResourceId(i, -1), dataName[i], dataDesc[i], dataPeriodTime[i], dataCharacteristic[i], dataHabit[i], dataEnv[i])
+            val dataStart = dataStart[i].toIntOrNull() ?: 0
+            val dataEnd = dataEnd[i].toIntOrNull() ?: 0
+
+            val family = Family(dataIcon.getResourceId(i, -1), dataName[i], dataDesc[i], dataPeriodTime[i], dataCharacteristic[i], dataHabit[i], dataEnv[i], dataStart, dataEnd)
             listFamily.add(family)
         }
         return listFamily
@@ -74,9 +79,9 @@ class MainActivity : AppCompatActivity() {
         })
     }
 
-    private fun showSelectedFamily(item: Family) {
-        val intentWithData = Intent(this@MainActivity, DinosaurDetailActivity::class.java)
-        intentWithData.putExtra(DinosaurDetailActivity.EXTRA_ITEM, item)
+    private fun showSelectedFamily(family: Family) {
+        val intentWithData = Intent(this@MainActivity, FamilyDetailActivity::class.java)
+        intentWithData.putExtra(FamilyDetailActivity.EXTRA_FAMILY, family)
         startActivity(intentWithData)
     }
 }

@@ -4,7 +4,7 @@ import kotlinx.parcelize.Parcelize
 import android.os.Parcelable
 
 @Parcelize
-class Dinosaurus (
+data class Dinosaurus (
     var dino_icon: Int,
     var dino_name: String,
     var dino_desc: String,

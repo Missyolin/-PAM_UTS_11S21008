@@ -1,44 +1,54 @@
 package com.ifs21008.dinopedia
 
+import android.R
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.MenuItem
-import com.ifs21008.dinopedia.databinding.ActivityDinosaurDetaiBinding
+import com.ifs21008.dinopedia.databinding.ActivityDinosaurDetailBinding
 
 class DinosaurDetailActivity : AppCompatActivity() {
 
-    private lateinit var binding: ActivityDinosaurDetaiBinding
-    private var family: Family? = null
-
+    private lateinit var binding: ActivityDinosaurDetailBinding
+    private var dino: Dinosaurus? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityDinosaurDetaiBinding.inflate(layoutInflater)
+        binding = ActivityDinosaurDetailBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        family = intent.getParcelableExtra(EXTRA_ITEM)
+        dino = if (Build.VERSION.SDK_INT >=33) {
+            intent.getParcelableExtra(EXTRA_DINOSAURUS, Dinosaurus::class.java)
+        } else {
+            @Suppress("DEPRECATION")
+            intent.getParcelableExtra(EXTRA_DINOSAURUS)
+        }
 
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
-        if (family != null) {
-            supportActionBar?.title = "Family ${family!!.family_name}"
-            loadData(family!!)
-        } else {
+        if (dino != null) {
+            supportActionBar?.title = "Item ${dino!!.dino_name}"
+            loadData(dino!!)
+        } else{
             finish()
         }
     }
 
-    private fun loadData(family: Family) {
-        binding.ivDetailFamily.setImageResource(family.family_icon)
-        binding.tvFamilyName.text = family.family_name
-        binding.tvFamilyDesc.text = family.family_description
-        binding.tvPeriodFamily.text = family.family_life_time_period
-        binding.tvFamilyChar.text = family.family_physics_characteristic
-        binding.tvHabitFamily.text = family.family_habit
-        binding.tvFamilyEnv.text = family.family_environment
+    private fun loadData(dino: Dinosaurus) {
+        binding.ivDinoSpec.setImageResource(dino.dino_icon)
+        binding.tvDinoName.text = dino.dino_name
+        binding.tvDinoDesc.text = dino.dino_desc
+        binding.tvDinoLife.text = dino.dino_period_time
+        binding.tvDinoChar.text = dino.dino_physics_characteristic
+        binding.tvdinoHab.text = dino.dino_habit
+        binding.tvDinoFood.text = dino.dino_food
+        binding.tvDinoLeng.text = dino.dino_length
+        binding.tvDinoHei.text = dino.dino_height
+        binding.tvDinoWe.text = dino.dino_weight
+        binding.tvDinoWeak.text = dino.dino_weakness
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        when (item.itemId) {
-            android.R.id.home -> {
+        when(item.itemId) {
+            R.id.home -> {
                 finish()
             }
         }
@@ -46,6 +56,9 @@ class DinosaurDetailActivity : AppCompatActivity() {
     }
 
     companion object {
-        const val EXTRA_ITEM = "extra_item"
+        const val EXTRA_FAMILY = "extra_family"
+        const val EXTRA_DINOSAURUS = "extra_dinosaurus"
     }
+
+
 }
